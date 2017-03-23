@@ -4,10 +4,8 @@ const stripe = Stripe('pk_test_kIlII7rvkl4BZjO2aAbRXbGO');
 // Create an instance of Elements
 const elements = stripe.elements();
 
-// Custom styling can be passed to options when creating an Element.
 const style = {
   base: {
-    // Add your base input styles here. For example:
     fontSize: '16px',
     lineHeight: '24px',
   },
@@ -16,7 +14,6 @@ const style = {
   }
 };
 
-// Create an instance of the card Element
 const card = elements.create('card', {style});
 
 // Add an instance of the card Element into the `card-element` <div>

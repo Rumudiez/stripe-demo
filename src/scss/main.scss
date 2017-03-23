@@ -1,2 +1,30 @@
+$body: #061b34;
+$caption: #788c98;
+$accent1: #56d265;
+$accent2: #0f6caf;
+$error: #ea240c;
+
+body {
+  color: $body;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: .5px;
+  line-height: 20px;
+}
+form {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+}
+
 @import "demo";
 @import "payments";
